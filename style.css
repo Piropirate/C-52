@@ -1,0 +1,142 @@
+.menu{
+    display:flex;
+    justify-content:space-between;
+    background-color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: yellow;
+    border: 10px gold;
+    border-style: groove ridge ridge groove ;
+    padding: 10px;
+}
+
+body{
+    background-color: #000000;
+    margin:0px;
+}
+
+.grid{
+    display:flex;
+    justify-content: space-between;
+    background-color: #000000;
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.origami{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    width: 310px;
+    font-family: fantasy;
+    position:relative;
+}
+
+.bodyimg{
+    background-color: #acacac;
+    padding: 1%;
+    border:5px black dashed;
+}
+
+.camel{
+    background-color: #FCDB61;
+    padding: 20px;
+    border: 5px #FCDB61;
+    border-style: ridge groove groove ridge;
+}
+
+.chameleon{
+    background-color: #CCDC27;
+    padding-right: 20px;
+    padding-left: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-left: 5px #CCDC27;
+    border-right: 5px #CCDC27;
+    border-top: 5px #CCDC27;
+    border-bottom: 5px #CCDC27;
+    border-style: ridge groove groove ridge;
+}
+
+.pigeon{
+    background-color: #53C4CB;
+    padding: 20px;
+    border: 5px #53C4CB;
+    border-style: ridge groove groove ridge;
+}
+
+.bear{
+    background-color: #FEC483;
+    padding: 20px;
+    border: 5px #FEC483;
+    border-style: ridge groove groove ridge;
+}
+
+.cicada{
+    background-color: #EDA854;
+    padding: 20px;
+    border: 5px #EDA854;
+    border-style: ridge groove groove ridge;
+}
+
+a:link{
+    color:orange;
+    text-decoration: none;
+}
+
+a:visited{
+    color:orangered;
+    text-decoration: none;
+}
+
+.origami h3{
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+.cicada:hover h3{
+    opacity:1;
+} 
+
+.bear:hover h3{
+    opacity:1;
+}
+
+.pigeon:hover h3{
+    opacity:1;
+}
+
+.chameleon:hover h3{
+    opacity:1;
+}
+
+.camel:hover h3{
+    opacity:1;
+}
+
+.cicada:hover img{
+    opacity:0.33;
+} 
+
+.bear:hover img{
+    opacity:0.33;
+}
+
+.pigeon:hover img{
+    opacity:0.33;
+}
+
+.chameleon:hover img{
+    opacity:0.33;
+}
+
+.camel:hover img{
+    opacity:0.33;
+}
